@@ -1,0 +1,25 @@
+.__card-text{
+    font-family: "Courier New", Courier, monospace;
+    // white-space: nowrap;
+    height: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+}
+
+.__bannerImage{
+    height: 200px;
+    background-image: url('/image/cat3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    h1{
+        text-shadow: -2px -2px 2px rgba(0, 0, 0, 0.5),
+        2px -2px 2px rgba(0, 0, 0, 0.5),
+        -2px 2px 2px rgba(0, 0, 0, 0.5),
+        2px 2px 2px rgba(0, 0, 0, 0.5);
+
+
+    }
+}
+
